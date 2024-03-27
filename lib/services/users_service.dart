@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:firebase_app_check/firebase_app_check.dart';
-import 'package:flutter_firebase_appcheck_test/model/user_model.dart';
 import 'package:dio/dio.dart';
 
 class UsersService {

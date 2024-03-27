@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "711063819559",
-    "project_id": "fir-appcheck-poc",
-    "storage_bucket": "fir-appcheck-poc.appspot.com"
+    "project_number": "523566161321",
+    "project_id": "appcheckmvp",
+    "storage_bucket": "appcheckmvp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:711063819559:android:9202011100fd91ea464502",
+        "mobilesdk_app_id": "1:523566161321:android:2f29a9438a02768c0c38b8",
         "android_client_info": {
           "package_name": "com.example.flutter_firebase_appcheck_test"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBpbW5H0jQmrD4wz5-2Srn4HCFLmwnVM1c"
+          "current_key": "AIzaSyCJobJJeYpAoSaQFX5UH-uFxSvGCbYr6AY"
         }
       ],
       "services": {

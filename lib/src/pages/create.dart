@@ -1,5 +1,6 @@
-import 'package:flutter_firebase_appcheck_test/services/employees_service.dart';
+import 'package:flutter_firebase_appcheck_test/services/users_service.dart';
 import 'package:flutter/material.dart';
+import 'list.dart';
 
 class CREATE extends StatefulWidget {
   const CREATE({super.key});
@@ -9,8 +10,8 @@ class CREATE extends StatefulWidget {
 }
 
 TextEditingController name = TextEditingController();
-TextEditingController department = TextEditingController();
-TextEditingController joineddate = TextEditingController();
+TextEditingController email = TextEditingController();
+TextEditingController password = TextEditingController();
 
 class _POSTState extends State<CREATE> {
   @override
@@ -24,22 +25,21 @@ class _POSTState extends State<CREATE> {
             children: [
               TextField(
                 controller: name,
-                decoration: const InputDecoration(label: Text("Employee-name")),
+                decoration: const InputDecoration(label: Text("Name")),
               ),
               const SizedBox(
                 height: 50,
               ),
               TextField(
-                controller: department,
-                decoration:
-                    const InputDecoration(label: Text("Department-name")),
+                controller: email,
+                decoration: const InputDecoration(label: Text("Email")),
               ),
               const SizedBox(
                 height: 50,
               ),
               TextField(
-                controller: joineddate,
-                decoration: const InputDecoration(label: Text("Joined-date")),
+                controller: password,
+                decoration: const InputDecoration(label: Text("Password")),
               ),
               const SizedBox(
                 height: 50,
@@ -47,12 +47,18 @@ class _POSTState extends State<CREATE> {
               ElevatedButton(
                   onPressed: () {
                     var data = {
-                      "employeeName": name.text,
-                      "department": department.text,
-                      "dateOfJoining": joineddate.text
+                      "name": name.text,
+                      "email": email.text,
+                      "password": password.text
                     };
 
-                    EmployeesService.postEmployee(data);
+                    UsersService.postUser(data);
+
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) {
+                        return const LIST();
+                      },
+                    ));
                   },
                   child: const Text("POST"))
             ],

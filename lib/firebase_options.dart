@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDmEf2BQ1_4_L0hb2XeUiia5QVGuIiVT6M',
-    appId: '1:711063819559:web:566db285fa4b7d8f464502',
-    messagingSenderId: '711063819559',
-    projectId: 'fir-appcheck-poc',
-    authDomain: 'fir-appcheck-poc.firebaseapp.com',
-    storageBucket: 'fir-appcheck-poc.appspot.com',
-    measurementId: 'G-E6PW4XCH09',
+    apiKey: 'AIzaSyDi90K59qtefxigs4Az7qZxcdCbZAtpABg',
+    appId: '1:523566161321:web:3dd1aaba7818e37c0c38b8',
+    messagingSenderId: '523566161321',
+    projectId: 'appcheckmvp',
+    authDomain: 'appcheckmvp.firebaseapp.com',
+    storageBucket: 'appcheckmvp.appspot.com',
+    measurementId: 'G-W1YNZY7DHM',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBpbW5H0jQmrD4wz5-2Srn4HCFLmwnVM1c',
-    appId: '1:711063819559:android:9202011100fd91ea464502',
-    messagingSenderId: '711063819559',
-    projectId: 'fir-appcheck-poc',
-    storageBucket: 'fir-appcheck-poc.appspot.com',
+    apiKey: 'AIzaSyCJobJJeYpAoSaQFX5UH-uFxSvGCbYr6AY',
+    appId: '1:523566161321:android:2f29a9438a02768c0c38b8',
+    messagingSenderId: '523566161321',
+    projectId: 'appcheckmvp',
+    storageBucket: 'appcheckmvp.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA90AA2kawRVrX8UjJ_oOTJDdBxgFQ7csc',
-    appId: '1:711063819559:ios:d4c62719d325a700464502',
-    messagingSenderId: '711063819559',
-    projectId: 'fir-appcheck-poc',
-    storageBucket: 'fir-appcheck-poc.appspot.com',
+    apiKey: 'AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM',
+    appId: '1:523566161321:ios:81b7640b32e84b780c38b8',
+    messagingSenderId: '523566161321',
+    projectId: 'appcheckmvp',
+    storageBucket: 'appcheckmvp.appspot.com',
     iosBundleId: 'com.example.flutterFirebaseAppcheckTest',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyA90AA2kawRVrX8UjJ_oOTJDdBxgFQ7csc',
-    appId: '1:711063819559:ios:4d11c7e724c833f9464502',
-    messagingSenderId: '711063819559',
-    projectId: 'fir-appcheck-poc',
-    storageBucket: 'fir-appcheck-poc.appspot.com',
+    apiKey: 'AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM',
+    appId: '1:523566161321:ios:e656708198852e5e0c38b8',
+    messagingSenderId: '523566161321',
+    projectId: 'appcheckmvp',
+    storageBucket: 'appcheckmvp.appspot.com',
     iosBundleId: 'com.example.flutterFirebaseAppcheckTest.RunnerTests',
   );
 }

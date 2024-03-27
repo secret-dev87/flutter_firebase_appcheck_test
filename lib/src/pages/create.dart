@@ -39,6 +39,7 @@ class _POSTState extends State<CREATE> {
               ),
               TextField(
                 controller: password,
+                obscureText: true,
                 decoration: const InputDecoration(label: Text("Password")),
               ),
               const SizedBox(
@@ -52,13 +53,7 @@ class _POSTState extends State<CREATE> {
                       "password": password.text
                     };
 
-                    UsersService.postUser(data);
-
-                    Navigator.push(context, MaterialPageRoute(
-                      builder: (context) {
-                        return const LIST();
-                      },
-                    ));
+                    _createUser(context, data);
                   },
                   child: const Text("POST"))
             ],
@@ -66,5 +61,36 @@ class _POSTState extends State<CREATE> {
         ),
       ),
     );
+  }
+
+  _createUser(context, Map userdata) async {
+    var message = "";
+    try {
+      var res = await UsersService.postUser(userdata);
+      if (res.statusCode == 200) {
+        message = "New user is created.";
+      } else {
+        message = res.statusMessage;
+      }
+    } catch (e) {
+      message = e.toString();
+    }
+
+    Widget okButton = TextButton(
+        child: Text("OK"),
+        onPressed: () {
+          Navigator.of(context, rootNavigator: true).pop();
+        });
+    AlertDialog alert = AlertDialog(
+      title: Text("Creating User"),
+      content: Text(message),
+      actions: [okButton],
+    );
+
+    showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return alert;
+        });
   }
 }

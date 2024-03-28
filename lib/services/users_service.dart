@@ -4,7 +4,8 @@ import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:dio/dio.dart';
 
 class UsersService {
-  static String url = "http://172.17.100.2:3000/api/";
+  static String url = "http://localhost:5192/api/";
+  // static String url = "http://172.17.100.2:5192/api/";
   // static String url = "http://localhost:3000/api/";
 
   static postUser(Map pdata) async {

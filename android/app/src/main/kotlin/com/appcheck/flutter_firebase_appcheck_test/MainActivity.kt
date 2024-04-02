@@ -1,4 +1,4 @@
-package com.example.flutter_firebase_appcheck_test
+package com.appcheck.flutter_firebase_appcheck_test
 
 import io.flutter.embedding.android.FlutterActivity
 

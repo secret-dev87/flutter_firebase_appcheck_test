@@ -45,17 +45,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyDi90K59qtefxigs4Az7qZxcdCbZAtpABg',
-    appId: '1:523566161321:web:3dd1aaba7818e37c0c38b8',
+    appId: '1:523566161321:web:2ba5fb60fea0fab70c38b8',
     messagingSenderId: '523566161321',
     projectId: 'appcheckmvp',
     authDomain: 'appcheckmvp.firebaseapp.com',
     storageBucket: 'appcheckmvp.appspot.com',
-    measurementId: 'G-W1YNZY7DHM',
+    measurementId: 'G-7SP6DJMYRL',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCJobJJeYpAoSaQFX5UH-uFxSvGCbYr6AY',
-    appId: '1:523566161321:android:2f29a9438a02768c0c38b8',
+    appId: '1:523566161321:android:76de23c4c9e0cc490c38b8',
     messagingSenderId: '523566161321',
     projectId: 'appcheckmvp',
     storageBucket: 'appcheckmvp.appspot.com',
@@ -63,19 +63,19 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM',
-    appId: '1:523566161321:ios:81b7640b32e84b780c38b8',
+    appId: '1:523566161321:ios:fb27850be9b49b020c38b8',
     messagingSenderId: '523566161321',
     projectId: 'appcheckmvp',
     storageBucket: 'appcheckmvp.appspot.com',
-    iosBundleId: 'com.example.flutterFirebaseAppcheckTest',
+    iosBundleId: 'com.appcheck.flutterFirebaseAppcheckTest',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM',
-    appId: '1:523566161321:ios:e656708198852e5e0c38b8',
+    appId: '1:523566161321:ios:200d7ec19859b6ac0c38b8',
     messagingSenderId: '523566161321',
     projectId: 'appcheckmvp',
     storageBucket: 'appcheckmvp.appspot.com',
-    iosBundleId: 'com.example.flutterFirebaseAppcheckTest.RunnerTests',
+    iosBundleId: 'com.appcheck.flutterFirebaseAppcheckTest.RunnerTests',
   );
 }

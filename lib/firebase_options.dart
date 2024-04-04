@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM',
-    appId: '1:523566161321:ios:fb27850be9b49b020c38b8',
+    appId: '1:523566161321:ios:2e70a3b53fe882f60c38b8',
     messagingSenderId: '523566161321',
     projectId: 'appcheckmvp',
     storageBucket: 'appcheckmvp.appspot.com',
@@ -72,7 +72,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM',
-    appId: '1:523566161321:ios:200d7ec19859b6ac0c38b8',
+    appId: '1:523566161321:ios:efb881ee785ca8370c38b8',
     messagingSenderId: '523566161321',
     projectId: 'appcheckmvp',
     storageBucket: 'appcheckmvp.appspot.com',

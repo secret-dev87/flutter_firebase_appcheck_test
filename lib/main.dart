@@ -9,6 +9,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
+    name: "appcheckmvp",
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
@@ -16,7 +17,7 @@ Future<void> main() async {
     webProvider:
         ReCaptchaV3Provider('6LfBrWIpAAARAAJ4Ep1lOJz8_zOHQpqy7NTUvFPEJ'),
     androidProvider: AndroidProvider.playIntegrity,
-    appleProvider: AppleProvider.deviceCheck,
+    appleProvider: AppleProvider.debug,
   );
 
   // Run the app and pass in the SettingsController. The app listens to the

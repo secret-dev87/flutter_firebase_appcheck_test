@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyA90AA2kawRVrX8UjJ_oOTJDdBxgFQ7csc</string>
+	<string>AIzaSyBz5jHz4YfSgfCOgCZoXv-z6H3d-RQLabM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>711063819559</string>
+	<string>523566161321</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.appcheck.flutterFirebaseAppcheckTest.RunnerTests</string>
 	<key>PROJECT_ID</key>
-	<string>fir-appcheck-poc</string>
+	<string>appcheckmvp</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-appcheck-poc.appspot.com</string>
+	<string>appcheckmvp.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:711063819559:ios:4d11c7e724c833f9464502</string>
+	<string>1:523566161321:ios:efb881ee785ca8370c38b8</string>
 </dict>
 </plist>

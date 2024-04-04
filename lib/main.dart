@@ -15,8 +15,8 @@ Future<void> main() async {
   await FirebaseAppCheck.instance.activate(
     webProvider:
         ReCaptchaV3Provider('6LfBrWIpAAARAAJ4Ep1lOJz8_zOHQpqy7NTUvFPEJ'),
-    androidProvider: AndroidProvider.playIntegrity,
-    appleProvider: AppleProvider.deviceCheck,
+    androidProvider: AndroidProvider.debug,
+    appleProvider: AppleProvider.debug,
   );
 
   // Run the app and pass in the SettingsController. The app listens to the

@@ -17,7 +17,7 @@ Future<void> main() async {
     webProvider:
         ReCaptchaV3Provider('6LfBrWIpAAARAAJ4Ep1lOJz8_zOHQpqy7NTUvFPEJ'),
     androidProvider: AndroidProvider.playIntegrity,
-    appleProvider: AppleProvider.debug,
+    appleProvider: AppleProvider.deviceCheck,
   );
 
   // Run the app and pass in the SettingsController. The app listens to the
